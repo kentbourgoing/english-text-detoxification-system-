@@ -29,13 +29,11 @@ We developed and evaluated **11 different detoxification pipeline configurations
 .
 ├── README.md                                    # This file
 ├── An Exploration of Modern Text...pdf          # Final research report
-├── T5_base_Paradetox_training.ipynb            # T5 model training notebook
+├── T5_base_Paradetox_training.ipynb             # T5 model training notebook
 └── XDetox/                                      # Main project directory
-    ├── README.md                                # Detailed XDetox documentation
     ├── DecompX/                                 # DecompX explainability framework
     ├── datasets/                                # 7 toxicity datasets
     ├── data/                                    # Model outputs and results
-    │   ├── dexp_outputs/                        # DecompX experiment outputs
     │   └── model_outputs/                       # Results from all 11 pipelines
     ├── rewrite/                                 # Core detoxification pipeline
     │   ├── masking.py                           # MaRCo masking implementation
