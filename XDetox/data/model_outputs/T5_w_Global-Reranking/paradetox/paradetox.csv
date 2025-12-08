@@ -1,0 +1,2 @@
+config,bertscore,meaningbert,bleu4,perplexity_gen,perplexity_orig,toxicity_gen,toxicity_orig
+t5_nc10_maxlen128_temp1.0_topk50_topp0.95_wT0.5_wS0.3_wF0.2,0.93553,67.254,53.335,171.53,273.75,0.051471,0.9253

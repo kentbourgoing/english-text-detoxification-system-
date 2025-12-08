@@ -1,0 +1,2 @@
+folder,bertscore,meaningbert,bleu4,perplexity_gen,perplexity_orig,toxicity_gen,toxicity_orig
+t5_baseline_maxlen128_beams5,0.95339,74.841,82.652,192.07,273.75,0.20338,0.9253
