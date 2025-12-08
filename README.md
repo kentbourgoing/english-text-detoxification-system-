@@ -93,15 +93,6 @@ All models are evaluated on 671 ParaDetox test sentences using:
 
 *(Full results in Table 1 of the final report)*
 
-## Key Features
-
-- **Models**: T5-base, BART-base, Mistral-7B-Instruct, RoBERTa, XLM-R
-- **Frameworks**: PyTorch, HuggingFace Transformers, HuggingFace Datasets
-- **Explainability**: DecompX (ACL 2023) for token-level attribution
-- **Detoxification**: MaRCo (ACL 2023) Product-of-Experts
-- **Evaluation**: BERTScore, MeaningBERT, SacreBLEU
-- **Dataset**: **ParaDetox** (670 test examples)
-
 ## Acknowledgments
 
 This project builds upon:
