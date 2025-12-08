@@ -51,36 +51,6 @@ We developed and evaluated **11 different detoxification pipeline configurations
     └── [11 Pipeline Notebooks]                  # Experimental configurations
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- PyTorch with CUDA support (recommended for GPU acceleration)
-- HuggingFace Transformers 4.17.0+
-- See `XDetox/DecompX/requirements.txt` for full dependencies
-
-### Quick Start
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/kentbourgoing/datasci266-project.git
-   cd datasci266-project
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   cd XDetox/DecompX
-   pip install -r requirements.txt
-   ```
-
-3. **Run a pipeline notebook**:
-   - Open any of the 11 pipeline notebooks in `XDetox/` directory
-   - Follow the notebook instructions to run detoxification experiments
-
-4. **Train T5 baseline** (optional):
-   - Open `T5_base_Paradetox_training.ipynb`
-   - Requires ParaDetox training data
 
 ## The 11 Pipeline Configurations
 
@@ -123,36 +93,14 @@ All models are evaluated on 671 ParaDetox test sentences using:
 
 *(Full results in Table 1 of the final report)*
 
-## Key Technologies
+## Key Features
 
 - **Models**: T5-base, BART-base, Mistral-7B-Instruct, RoBERTa, XLM-R
 - **Frameworks**: PyTorch, HuggingFace Transformers, HuggingFace Datasets
 - **Explainability**: DecompX (ACL 2023) for token-level attribution
 - **Detoxification**: MaRCo (ACL 2023) Product-of-Experts
 - **Evaluation**: BERTScore, MeaningBERT, SacreBLEU
-
-## Datasets
-
-We evaluate on 7 toxicity datasets:
-1. **ParaDetox** (670 test examples) - main benchmark
-2. **Microaggressions** - subtle offensive language
-3. **Social Bias Frames (SBF)** - social bias detection
-4. **DynaBench** - adversarial examples
-5. **Jigsaw** - Kaggle competition data (10k examples)
-6. **AppDia** - discourse-level annotations
-
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@article{he2024exploration,
-  title={An Exploration of Modern Text Detoxification Pipelines in a Modular Framework},
-  author={He, Benjamin and Bourgoing, Kent},
-  year={2025},
-  institution={UC Berkeley}
-}
-```
+- **Dataset**: **ParaDetox** (670 test examples)
 
 ## Acknowledgments
 
