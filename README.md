@@ -472,7 +472,7 @@ num_candidates = 10  # Default (best quality)
 | Name             | Email                          | LinkedIn                                           |
 |------------------|--------------------------------|---------------------------------------------------|
 | Benjamin He      | ben_he@berkeley.edu            | [LinkedIn](https://www.linkedin.com/in/ben-c-he/)    |
-| Kent Bourgoing   | kentbourgoing@ischool.berkeley.edu | [LinkedIn](https://linkedin.com/in/kentbourgoing) |
+| Kent Bourgoing   | kentbourgoing@ischool.berkeley.edu | [LinkedIn](https://www.linkedin.com/in/kent-bourgoing/) |
  
 ---
  
