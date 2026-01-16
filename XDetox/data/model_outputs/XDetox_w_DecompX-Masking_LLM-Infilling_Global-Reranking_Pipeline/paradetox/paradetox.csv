@@ -1,2 +1,0 @@
-threshold,folder,bertscore,meaningbert,bleu4,perplexity_gen,perplexity_orig,toxicity_gen,toxicity_orig
-0.2,llm_temp0.7_sampleT_topp0.95_maxnew64_ncand10,0.93241,64.744,81.536,162.39,273.75,0.10307,0.9253
